@@ -1,0 +1,19 @@
+
+/**/*.tfstate*
+/**/.terraform
+
+../modules/key/id_rsa
+../modules/key/id_rsa.pub
+# Local .terraform directories
+**/.terraform/*
+.terraform/*
+*.hcl
+*.lock*
+../.terraform/*
+terraform.*
+*.tfvars*
+
+# .tfstate files
+*.tfstate
+/**/*.tfstate*
+*.tfstate.*
